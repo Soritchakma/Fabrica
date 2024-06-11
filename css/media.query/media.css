@@ -1,0 +1,324 @@
+@media  (max-width: 420px) {
+    .banner-container h1 {
+        font-size: 40px;
+
+    }
+
+    /* second-banner start here */
+
+    .second-banner-last-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 350px;
+        align-content: center;
+        align-items: center;
+        padding-top: 80px;
+    }
+
+    .first-box {
+        width: 400px;
+        height: 100vh;
+    }
+
+    /* second-banner end here */
+
+    /* why choose start here */
+    #WHY-CHOOSE-US {
+        margin-top: 750px;
+        width: 100%;
+        height: auto;
+        align-content: center;
+
+    }
+
+    .why-choose-us-container {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
+    }
+
+    .image-box {
+        width: 100%;
+        height: 70vh;
+        transform: translateY(-20%);
+
+    }
+
+    .why-choose-us-container .image-box img {
+        width: 420px;
+        height: 50vh;
+    }
+
+    .text-box {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        transform: translateY(-50%);
+    }
+
+    .text-box h2 {
+        font-size: 37px;
+        padding-top: 30px;
+        font-weight: 700;
+    }
+
+    .text-box p {
+        font-size: 13px;
+        padding-top: 40px;
+
+    }
+
+    .text-box button {
+        margin-top: 60px;
+    }
+
+    /* why choose end here */
+    #counter-section {
+        width: 100%;
+        height: auto;
+        align-content: center;
+        margin-left: -0%;
+        transform: translateY(-35%);
+
+    }
+
+    .counter-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .counter-container,
+    .counters-numbers {
+        gap: 50px;
+    }
+
+    #image-banner-section {
+        width: 100%;
+        height: auto;
+        align-content: center;
+        transform: translateY(-80%);
+    }
+
+    .wrapper-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image img {
+        width: 420px;
+    }
+
+    .image h4 {
+        font-size: 18px;
+    }
+
+    .image h5 {
+        font-size: 15px;
+    }
+
+    .image h6 {
+        display: none;
+    }
+
+    #FACTS-IN-NUMBERS-section {
+        width: 100%;
+        height: auto;
+        margin-top: 700px;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+
+
+    }
+
+    .FACTS-IN-NUMBERS-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .text-container {
+        text-align: center;
+        width: 100%;
+    }
+
+    .text-container h2 {
+        font-size: 32px;
+        padding-top: 35px;
+        font-weight: 600;
+    }
+
+    .text-container p {
+        padding-top: 40px;
+        font-size: 18px;
+    }
+
+    .text-container button {
+        padding: 8px 30px;
+        margin-top: 45px;
+
+    }
+
+
+
+    .image-container {
+        width: 100%;
+        padding-top: 450px;
+        height: 70vh;
+    }
+
+    .image-container img {
+        width: 100%;
+        transform: translateY(-30%);
+        margin-left: -20%;
+
+    }
+
+    #TESTIMONIALS {
+        width: 100%;
+        height: auto;
+        margin-top: 400px;
+
+    }
+
+    .owl-carousel-owl-theme {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .items p {
+        font-size: 14px;
+        padding-top: 30px;
+    }
+
+    #cardbar-section {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .cardbar-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .card-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-self: center;
+    }
+    .card-container,
+    cardbar1 {
+        width: 420px;
+        height: 100vh;
+    }
+
+    .card-container,
+    cardbar2 {
+        width: 420px;
+        height: 100vh;
+    }
+
+    .cardbar1 button {
+        padding: 8px 30px;
+    }
+
+    .cardbar2 button {
+        padding: 8px 30px;
+    }
+    .CHOOSE-YOUR-PLAN {
+        margin-top: 120px;
+        width: 100%;
+        height: 60vh;
+        text-align: center;
+    }
+    .CHOOSE-YOUR-PLAN h2{
+        font-size: 35px;
+        padding-top: 25px;
+    }
+    .CHOOSE-YOUR-PLAN p{
+        font-size: 15px;
+        
+    }
+    br{
+        display: none;
+    }
+    #STRATEGIC-VISION{
+        margin-top: 120px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+       
+    }
+    .STRATEGIC-VISION-CONTAINETR{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .text-container-vision{
+        width: 100%;
+        text-align: center;
+    }
+    .text-container-vision h2{
+        font-size: 30px;
+    }
+  
+    .text-container-vision button{
+        margin-top: 60px;
+        padding: 10px 40px;
+    }
+
+
+    #logo-section{
+        margin-top: 500px;
+        width: 100%;
+        height: auto;
+    }
+    .logo-container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    #footer-section{
+        width: 100%;
+       height: 60vh;
+    }
+    .footer-container{
+        width: 100%;
+        height: 60vh;
+    }
+    .foot-container-A h2{
+        font-size: 30px;
+        transform: translateY(-2%);
+    }
+    .foot-container-B{
+        transform: translateX(-15%);
+    }
+    .foot-container-B-2{
+        transform: translateX(10%);
+    }
+    .foot-container-B-2 h5,h6{
+        display: none;
+    }
+
+
+
+}

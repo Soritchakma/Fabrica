@@ -1,0 +1,944 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;0,800;1,700;1,800&family=Outfit:wght@700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*
+#header {
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+}
+
+.container {
+    width: 100%;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.logo {
+    margin-left: -150px;
+}
+
+.meanu ul li a {
+    text-decoration: none;
+    color: #181D4E;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.meanu ul li {
+    display: inline;
+    padding-left: 20px;
+}
+
+.navbar i {
+    font-size: 25px;
+    padding-left: 20px;
+    color: 5A5A67;
+}
+
+/* Header css end here */
+
+/* banner css */
+#banner {
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+}
+
+.banner-container {
+    width: 100%;
+    height: 90vh;
+    background-image: url(../images/108_2-1-copyright-1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+
+}
+
+.banner-container h6 {
+    font-size: 13px;
+    color: #181D4E;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding-left: 80px;
+    padding-top: 70px;
+}
+
+.banner-container h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #181D4E;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+#second-banner {
+    width: 100%;
+    height: 60vh;
+    margin-top: 20px;
+}
+
+
+.second-banner-frist-container {
+    padding-top: 90px;
+    text-align: center;
+}
+
+.second-banner-frist-container h6 {
+    font-size: 13px;
+    color: #181D4E;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.second-banner-frist-container h2 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #181D4E;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.second-banner-last-container {
+    width: 100%;
+    height: 40vh;
+    padding-top: 20px;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.first-box {
+    width: 400px;
+    height: 40vh;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-top: 60px;
+}
+
+.first-box i {
+    font-size: 40px;
+}
+
+.first-box h4 {
+    font-size: 24px;
+    font-weight: 300;
+    padding-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #181D4E;
+
+}
+
+.first-box p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #5A5A67;
+    padding-top: 15px;
+    font-weight: 200;
+}
+
+.first-box i {
+    padding-top: 5px;
+}
+
+/* banner css end here */
+/* 3rd banner css start */
+#WHY-CHOOSE-US {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.image-box {
+    width: 50%;
+    height: 80vh;
+}
+
+.why-choose-us-container {
+    width: 90%;
+    height: auto;
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.why-choose-us-container .image-box img {
+    width: 700px;
+    height: 80vh;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.text-box {
+    width: 40%;
+    height: 80vh;
+    /* text-align: center; */
+    background-size: cover;
+    padding-top: 120px;
+
+}
+
+.text-box h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #181D4E;
+    font-weight: 300;
+    direction: ltr;
+
+}
+
+.text-box h2 {
+    font-size: 45px;
+    color: #181D4E;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+}
+
+.text-box p {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 15px;
+    color: #5A5A67;
+
+}
+
+.text-box button {
+    padding: 15px 52px 16px;
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: #0868D7;
+    border-color: #0868D7;
+    color: #FFFFFF;
+}
+
+/* 3rd banner css end  */
+#counter-section {
+    width: 90%;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+
+.counter-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 200px;
+    transition: all 0.7s linear;
+    align-content: center;
+    align-items: center;
+}
+
+.counters-numbers {
+    position: relative;
+}
+
+.counters-numbers h3 {
+    font-size: 150px;
+    font-weight: 800;
+    color: rgba(128, 128, 128, 0.426);
+
+}
+
+.counters-numbers p {
+    font-size: 25px;
+    font-weight: 300;
+    color: #181D4e;
+}
+
+.counters-numbers span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-weight: 700;
+    color: #181D4e;
+}
+
+#image-banner-section {
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+
+}
+
+.wrapper-container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.image img {
+    width: 370px;
+    height: 50vh;
+}
+
+.content h4 {
+    position: absolute;
+    color: white;
+    margin-top: -100px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.content h5 {
+    position: absolute;
+    color: white;
+    margin-top: -70px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.content {
+    position: relative;
+
+}
+
+.content h6 {
+    position: absolute;
+    color: #FFFFFF;
+    top: -350px;
+    text-align: left;
+    font-size: 23px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.content i {
+    position: absolute;
+    color: #FFFFFF;
+    top: -30px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+#FACTS-IN-NUMBERS-section {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: 100px;
+
+}
+
+.FACTS-IN-NUMBERS-container {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.text-container {
+    width: 50%;
+    height: 70vh;
+   
+    padding-top: 130px;
+
+}
+
+.image-container {
+    width: 50%;
+    height: 70vh;
+}
+
+.image-container img {
+    width: 100%;
+    height: 70vh;
+    padding-top: 80px;
+}
+
+.text-container h6 {
+    font-size: 14px;
+    color: #181D4E;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-container h2 {
+    font-size: 46px;
+    font-family: 'Open Sans', sans-serif;
+    color: #181D4E;
+    padding-top: 20px;
+}
+
+.text-container p {
+    font-size: 17px;
+    color: #5A5A67;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 15px;
+}
+
+.text-container button {
+    padding: 15px 52px 16px;
+    margin-top: 25px;
+    background-color: #0868D7;
+    border-color: #0868D7;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+
+}
+#carouselExampleDark{
+  width: 100%;
+  height: 100vh;
+}
+#TESTIMONIALS {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+
+}
+
+.owl-carousel-owl-theme {
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+
+}
+
+.items h4 {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #181D4E;
+    font-weight: 400;
+}
+
+.items h3 {
+    font-size: 46px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 15px;
+    color: #181D4E;
+    font-weight: 500;
+}
+
+.items img {
+    width: 100px;
+    padding-top: 15px;
+}
+
+.items P {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 15px;
+    font-weight: 300;
+}
+
+.items h5 {
+    padding-top: 45px;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    color: #181D4E;
+    font-weight: 600;
+
+}
+
+.items h6 {
+    padding-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #5A5A67;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+
+#img-container-section {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+
+
+}
+
+.img-container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.img-box {
+    width: 100%;
+    position: relative;
+
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.column-span {
+    grid-column: span 2;
+}
+
+.row-span {
+    grid-row: span 2;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content-img {
+    width: 100%;
+    height: 100%;
+    color: white;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #0868D7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content-img:hover {
+    opacity: 1;
+}
+
+.content-img h4 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.content-img h5 {
+    font-size: 17px;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content-img>* {
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+
+/* cardbar-section start here */
+#cardbar-section {
+    width: 100%;
+    height: 100vh;
+    margin-top: 80px;
+
+}
+
+.cardbar-container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding: 50px;
+    align-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.card-container {
+    width: 60%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+}
+
+.cardbar1 {
+    width: 100%;
+    height: 70vh;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    transform: translateY(-10%);
+}
+
+.cardbar1 i {
+    font-size: 50px;
+    color: green;
+}
+
+.cardbar1 h4 {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color: #181D4e;
+    padding-top: 20px;
+
+}
+
+.cardbar1 h5 {
+    font-size: 16px;
+    color: #5A5A67;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+}
+
+.cardbar1 h2 span {
+    font-size: 16px;
+    color: #181D4E;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+
+}
+
+.cardbar1 h2 {
+    font-size: 47px;
+    color: #181D4e;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+
+}
+
+.cardbar1 p {
+    font-size: 16px;
+    color: #5A5A67;
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+
+.cardbar1 button {
+    padding: 12px 40px;
+    margin-top: 35px;
+    background-color: #0868D7;
+    border-color: #0868D7;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+
+
+.cardbar2 {
+    width: 100%;
+    height: 70vh;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    transform: translateY(5%);
+}
+
+.cardbar2 i {
+    font-size: 50px;
+    color: green;
+}
+
+.cardbar2 h4 {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color: #181D4e;
+    padding-top: 20px;
+
+}
+
+.cardbar2 h5 {
+    font-size: 16px;
+    color: #5A5A67;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+}
+
+.cardbar2 h2 span {
+    font-size: 16px;
+    color: #181D4E;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+
+}
+
+.cardbar2 h2 {
+    font-size: 47px;
+    color: #181D4e;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+
+}
+
+.cardbar2 p {
+    font-size: 16px;
+    color: #5A5A67;
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+
+.cardbar2 button {
+    padding: 12px 40px;
+    margin-top: 35px;
+    background-color: #0868D7;
+    border-color: #0868D7;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.CHOOSE-YOUR-PLAN {
+    width: 40%;
+    height: auto;
+    padding-top: 150px;
+   
+}
+
+.CHOOSE-YOUR-PLAN h6 {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    color: #181D4e;
+}
+
+.CHOOSE-YOUR-PLAN h2 {
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    color: #181D4e;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.CHOOSE-YOUR-PLAN p {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    color: #5A5A67;
+    padding-top: 10px;
+    line-height: 30px;
+
+}
+
+.CHOOSE-YOUR-PLAN li {
+    list-style-type: none;
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #181D4e;
+    font-weight: 100;
+
+}
+
+.CHOOSE-YOUR-PLAN span i {
+    color: green;
+    font-weight: 600;
+    font-size: 16px;
+    gap: 20px;
+}
+
+/* cardbar-section end  here */
+/* STRATEGIC-VISION start here */
+#STRATEGIC-VISION {
+    width: 100%;
+    height: 70vh;
+    margin-top: auto;
+    background-color: whitesmoke;
+
+}
+
+.STRATEGIC-VISION-CONTAINETR {
+    width: 90%;
+    height: 70vh;
+    display: flex;
+   
+
+}
+
+.text-container-vision {
+    width: 50%;
+    height: 60vh;
+   text-align: center;
+    padding: 50px;
+    padding-top: 50px;
+   align-content: center;
+  
+
+}
+
+.text-container-vision h5 {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #181D4e;
+
+}
+
+.text-container-vision h2 {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #181D4e;
+    padding-top: 25px;
+}
+
+.text-container-vision button {
+    padding: 12px 40px;
+    background-color: #0868D7;
+    margin-top: 35px;
+    border-color: #0868D7;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.image-container {
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    
+}
+
+.image-container img {
+    width: 100%;
+    height: 80vh;
+    /* padding-left: 80px; */
+}
+
+#logo-section {
+    width: 100%;
+    height: 30vh;
+    margin: auto;
+}
+
+.logo-container img {
+    width: 200px;
+    height: 20vh;
+}
+
+.logo-container {
+    width: 100%;
+    height: 30vh;
+    padding: 50px;
+    align-content: center;
+    background-color: green;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+#footer-section {
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    background-color: #181D4e;
+}
+
+.footer-container {
+    width: 95%;
+    height: 50vh;
+    display: flex;
+    gap: 50px;
+}
+
+.foot-container-A {
+    width: 35%;
+    height: 50vh;
+    text-align: center;
+    align-content: center;
+    padding-left: 30px;
+}
+
+.foot-container-A h2 {
+    font-size: 32px;
+    color: #FCFCFC;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.foot-container-B {
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: #FCFCFC;
+}
+
+.foot-container-B-1 {
+    width: 30%;
+    height: 30vh;
+    text-align: center;
+    align-content: center;
+    margin-top: 80px;
+   
+}
+
+.foot-container-B-1 h4 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.foot-container-B-1 p {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 15px;
+    color: #9BA2AD;
+    line-height: 30px;
+}
+
+.foot-container-B-2 {
+    width: 30%;
+    height: 40vh;
+    text-align: center;
+    align-content: center;
+    padding-top: 30px;
+}
+
+.foot-container-B-2 h4 {
+    font-size: 18px;
+}
+.foot-container-B-2 h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+.foot-container-B-2 h5{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    color: #9BA2AD;
+
+}
+.foot-container-B-2 h6{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+
+
+}
